@@ -25,12 +25,12 @@ header {
   }
 
 
-  .logo {
+  /* .logo {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     color: #333;
-  }
+  } */
 
   .logo img{
     width: 180px;
@@ -126,15 +126,6 @@ header {
       }
   }
 
-  .top-navbar-right .icons{
-    position: absolute;
-    display: none;
-    color: #137e1c;
-    font-size: 40px;
-    font-weight: 800;
-    cursor: pointer;
-  }
-
   .bottom-navbar .close-icon{
     display: none;
   }
@@ -153,16 +144,16 @@ header {
 
 
   /* -----------------Responsive Hamburger Menu----------- */
-  .top-navbar-right .navbar-icons{
+  /* .top-navbar-right .navbar-icons{
     position: absolute;
     top: 0;
     right: 0;
-  }
+  } */
 
   .top-navbar .navbar-icons{
     right: 0;
     margin-right: 30px;
-    font-size: 30px; 
+    font-size: 30px;
     color: white;
     display: none;
   }
@@ -178,7 +169,7 @@ header {
 
   .top-navbar .navbar-icons{
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     color: rgb(19, 105, 45);
     display: block;
     z-index: 2;
@@ -186,7 +177,7 @@ header {
   }
   .bottom-navbar .close-icon{
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     color: rgb(237, 245, 239);
     display: block;
     z-index: 2;
@@ -199,7 +190,10 @@ header {
     margin: 8px 0;
     margin-right: auto;
     margin-left: 40px;
+    /* background-color: #fff; */
+    /* width: 100%; */
   }
+ 
 
   .bottom-navbar ul li:first-child {
     margin-top: 70px;
@@ -212,6 +206,7 @@ header {
     text-decoration: none;
     font-weight: 600;
     left: 0;
+    margin-left: 0px;
   }
 
   .bottom-navbar ul li:hover {
@@ -232,9 +227,9 @@ header {
 }
 
 
-  
 
-  
+
+
   /* ------------------------------ */
 .crops-nav{
      display: flex;
@@ -305,6 +300,13 @@ header {
 
 
 /* ------------slider section------------ */
+/* ------------------------------------- */
+
+
+
+
+/* ---------------Slider Section End------------- */
+/* -------------------------------------------------- */
 
 .services-container{
   transform: translateY(-100px);
@@ -340,7 +342,7 @@ header {
   margin-top: 10px;
   margin-left: 5px;
   padding-top: 50px;
-  
+
 }
 
 .services-content p{
@@ -357,7 +359,7 @@ header {
 }
 
 .services-content{
-  width: 92%; 
+  width: 92%;
 }
 
 
@@ -383,7 +385,7 @@ header {
 .services-column{
   margin-bottom: 50px;
   width: 300px;
-  
+
 }
 
 .services-column a{
@@ -593,18 +595,18 @@ header {
         font-size: 14px;
         margin-left: 18px;
     }
-    
+
     .cta .cta-btn{
         transform: scale(0.7);
     }
     }
-    
+
     @media(max-width: 477px){
         .cta .cta-p1{
             font-size: 11px;
             margin-left: 10px;
-    
-        } 
+
+        }
         .cta .cta-btn{
             transform: scale(0.6);
             margin-right: 5px;
@@ -615,14 +617,14 @@ header {
       .cta .cta-p1{
           font-size: 10px;
           margin-left: 10px;
-  
-      } 
+
+      }
       .cta .cta-btn{
           transform: scale(0.50);
           margin-right: 2px;
       }
   }
-     
+
 
 .cta .cta-btn:hover{
     border: 3px solid white;
